@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"maps"
 
-	"github.com/go-openapi/analysis"
-	"github.com/go-openapi/spec"
+	analysis "github.com/allons-y/openapi-analysis"
+	spec "github.com/allons-y/openapi-spec"
 	"github.com/go-openapi/swag/yamlutils"
 )
 

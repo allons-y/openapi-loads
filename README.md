@@ -9,7 +9,7 @@ Primary usage:
 
 ```go
   import (
-	  "github.com/go-openapi/loads"
+	  loads "github.com/allons-y/openapi-loads"
   )
 
   ...

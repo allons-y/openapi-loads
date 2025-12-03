@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/go-openapi/loads"
+	loads "github.com/allons-y/openapi-loads"
 	"github.com/go-openapi/swag/loading"
 )
 

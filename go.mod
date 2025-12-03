@@ -1,8 +1,8 @@
-module github.com/go-openapi/loads
+module github.com/allons-y/openapi-loads
 
 require (
-	github.com/go-openapi/analysis v0.24.1
-	github.com/go-openapi/spec v0.22.1
+	github.com/allons-y/openapi-analysis v0.0.0-20251204071550-c411ed13b9c9
+	github.com/allons-y/openapi-spec v0.0.0-20251204071355-9801a15ee2d2
 	github.com/go-openapi/swag/loading v0.25.4
 	github.com/go-openapi/swag/yamlutils v0.25.4
 	github.com/go-openapi/testify/enable/yaml/v2 v2.0.2
@@ -18,12 +18,11 @@ require (
 	github.com/go-openapi/swag/conv v0.25.4 // indirect
 	github.com/go-openapi/swag/jsonname v0.25.4 // indirect
 	github.com/go-openapi/swag/jsonutils v0.25.4 // indirect
-	github.com/go-openapi/swag/mangling v0.25.1 // indirect
+	github.com/go-openapi/swag/mangling v0.25.4 // indirect
 	github.com/go-openapi/swag/stringutils v0.25.4 // indirect
 	github.com/go-openapi/swag/typeutils v0.25.4 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/kr/pretty v0.3.1 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	go.mongodb.org/mongo-driver v1.17.6 // indirect
 	golang.org/x/net v0.46.0 // indirect
@@ -31,6 +30,7 @@ require (
 )
 
 replace github.com/go-openapi/spec => ../spec
+
 replace github.com/go-openapi/analysis => ../analysis
 
 go 1.24.0
